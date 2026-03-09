@@ -1,0 +1,142 @@
+{
+    "siteTitle": "Protocol 372",
+    "pages": {
+        "Home": {
+            "title": "The digital foundations",
+            "subtitle": "The 'Tech-savvy' roots and the creation of the infrastructure",
+            "time": "Pre 2005",          
+            "image": "", 
+            "content": "In the early 90s, Estonia gained independence from a paper-based Soviet bureaucracy with limited tech systems and virtually no significant resources. Yet they seized the unique opportunity to start everything from scratch and build it in their own way and started to create cost-effective yet cutting-edge systems focusing on accessibility and efficiency. <br> While the rest of the world was still figuring out the how's and the what's, Estonia was declaring internet access as a fundamental human right. <br><br>However, this was not like a digital big bang, but a gradual implementation of several internet services, which include:",
+            "contentList": [
+                "1996 | Tiger Leap: Every school, every student, every workplace, connected. Estonia had made internet a fundamental human right. Now, 99% of the population uses internet on a daily basis, putting Estonia on top of the world's digital development index",
+                "Digital Banking and m-Parking: By 2000s, Estonia had become a global pioneer in rapidly adopting and integrating e-banking to their typical banking systems. This allowed them to easily pay online from their mobile apps while the world was still counting coins and bills. In 2000, Estonia launched the M-parking which allowed the citizens to pay for their parking via mobile apps.",
+                "2002 | e-ID: By the year 2002, Estonia launched a chip-based ID card to unlock every public and private service. While not the first ones to introduce E-ID's, they were the first to make it mandatory for all citizens and residents",
+                "2003 | Skype: A group of Estonian developers collaborated with Swedish entrepreneurs to develop and launch Skype, proving a small, newly independent nation could bring a major change at a global level."
+            ],
+            "cards": [
+                {
+                    "cardTitle": "The 99% society",
+                    "cardSubtitle": "The journey from Estonia to e-Stonia",
+                    "cardLink": "/e-stonia",
+                    "cardTime": "2005 - Present",
+                    "cardImage": "images/citizens2.png"
+                },
+                {
+                    "cardTitle": "X-Road republic",
+                    "cardSubtitle": "Explore how Estonia takes its digital revolution beyond borders",
+                    "cardLink": "/global",
+                    "cardTime": "2005 - Present",
+                    "cardImage": "images/global2.jpg"
+                },
+                {
+                    "cardTitle": "Protocol 372: The vision",
+                    "cardSubtitle": "Estonia's vision for a self-driving state.",
+                    "cardLink": "/vision",
+                    "cardTime":"Present - Future",
+                    "cardImage": "images/futures3.jpg"
+                }
+            ]
+        },
+
+        "page2_Citizens": {
+            "title": "The 99% society",
+            "subtitle": "Redefining citizenship in the world's first paperless state",
+            "time": "2005 - Present",
+            "tags": ["Paperless state", "e-Stonia", "Zero-Bureaucracy", "i-Voting"],
+            "image":"images/citizens2.png",
+            "content": "Since 2005, Estonia hasn't just 'used' internet; it's lived on it. Estonia moved beyond 'online services' to a seamless state where even the government works invisibly in the background.",
+            "contentList": [
+                "<span style='font-weight: bold;'>I-voting | 2005:</span> Estonia made history as the very first nation to conduct legally binding national elections online. Today, over 51% of the population securely votes online with just a few clicks from their home.",
+                "<span style='font-weight: bold;'>Blockchain Technology:</span> After introducing blockchain tech in 2008, Estonia has become a global leader in utilizing blockchain for public services, employing <a href='https://e-estonia.com/solutions/cyber-security/ksi-blockchain/' target='_blank' rel='noopener noreferrer' class='inline-link'>Guardtime's KSI</a> blockchain to secure stable data, digital courts, and health records",
+                "<span style='font-weight: bold;'>Healthcare cloud:</span> Launching electronic health records and digital prescriptions nationwide, Estonia has now become a 100% paperless medical system",
+                "<span style='font-weight: bold;'>Startup Mindset:</span> Estonia is now the European leader in startups per capita by making it possible to register a business online in under 15 minutes. Estonia has successfully transformed the entire country into an incubator",
+                "<span style='font-weight: bold;'>Other Advancements:</span> Estonia has moved towards 'invisible services'; when a child is born, family benefits are triggered automatically. No forms, no queues, just code working for people. Not just childcare but e-marriage/e-divorce allows people to register their marriage or divorce online, and AI gov allows citizens to access government services 24/7 via voice or chat"
+            ],
+            "outro": "The '99% rule' in Estonia refers to the country's achievement in making 99% of its public services available online 24/7. Today every single government service is digital. From filing taxes in 3 minutes to managing land registries, the goal is Zero Bureaucracy.",
+            "cards": [
+                {
+                    "cardTitle": "The Digital Foundation",
+                    "cardLink": "/home",
+                    "cardTime": "Pre 2005"
+                },
+                {
+                    "cardTitle": "X-Road Republic",
+                    "cardLink": "/global",
+                    "cardTime": "2005 - Present"
+                }, 
+                {
+                    "cardTitle": "The vision",
+                    "cardLink": "/vision",
+                    "cardTime": "Present - Future"
+                }
+            ]
+        },
+
+        "page3_Global": {
+            "title": "X-Road Republic",
+            "subtitle": "Exporting innovation and securing borderless frontier",
+            "time": "2005 - Present",
+            "tags": ["X-Road", "e-Residency", "Cybertech", "NIIS"],
+            "image":"images/global2.jpg",
+            "content": "Estonia isn't just a digital country, its an operating system for the digital world. By exporting its technology, a small nation of 1.3 million people now leads 193 countries.",
+            "contentList": [
+                "<span style='font-weight: bold;'>X - Road:</span> X-road is a secure, open source data exchange layer developed and launched by Estonia to reduce data exchange costs and data leaks. The X-road is now extensively used in Europe and adopted in countries all over the world such as Argentina, Columbia and Japan.",
+                "<span style='font-weight: bold;'>2007 || Cyber Security:</span> Following the largest till date cyber attack against a country, Estonia improved the cyber security to an extent that now both the  NATO Cooperative Cyber Defence Centre of Excellence and the EU IT Agency are located in Tallinn, Estonia. Not just that but Estonia literally wrote the book on international cyber warfare law.",
+                "<span style='font-weight: bold;'>2014 || e-Residency:</span> Estonia's e-residency is a government-issued digital ID that allows non-residents Estonia's digital infrastructure from anywhere in the world, enabling people to manage 100% EU based businesses from anywhere in the world. Today, over 130,000 entrepreneurs from 170+ countries run EU companies remotely via Estonian infrastructure",
+                "<span style='font-weight: bold;'>2017 || World's First Data Embassy:</span> Estonia established high security servers in Luxembourg with full diplomatic immunity, ensuring the state stays alive even if its physical borders are threatened or worst-case scenario, critical system failures.",
+                "<span style='font-weight: bold;'>2017 || NIIS:</span> Nordic Institute for Interoperability (<a href='https://www.niis.org/' target='_blank' rel='noopener noreferrer' class='inline-link'>NIIS</a>) Solutions is an NGO (Estonia, Finland, Iceland) that develops cross-body digital government infrastructure such as the X-road"
+            ],
+            "outro": "Estonia now ranks #1 in cyber security and #2 in e-government globally by the UN, proving that in digital age, a nation's size doesn't limit its power",
+            "cards": [
+                {
+                    "cardTitle": "The Digital Foundation",
+                    "cardLink": "/home",
+                    "cardTime": "Pre 2005"
+                },
+                {
+                    "cardTitle": "The 99% society",
+                    "cardLink": "/e-stonia",
+                    "cardTime": "2005 - Present"
+                },
+                {
+                    "cardTitle": "The vision",
+                    "cardLink": "/vision",
+                    "cardTime": "2005 - Present"
+                }
+            ]
+        },
+
+        "page4_Future": {
+            "title": "Protocol 372: The vision",
+            "subtitle": "Automated governance and the rise of proactive state",
+            "time": "Present - Future",
+            "tags": ["Proactive Gov", "Bürokratt", "AI", "Carbon neutral"],
+            "image": "images/futures3.jpg",
+            "content": "Digitalization is already done, now the plan is to build a state that thinks ahead. The goal for the future isn't just 'online services', it's 'personal state' that predicts what you need before you can even ask.",
+            "contentList" : [
+                "<span style='font-weight: bold;'>Bürokratt </span> The vision is to create a seamless network of interoperable chatbots that serves as a unified gateway for citizens, providing reliable information in one place, 24/7, and free of charge",
+                "<span style='font-weight: bold;'>Proactive Services:</span> Estonia is working ending the era of needing applications to sign up for services. The goal is that if one is eligible for a service or a perk, the government would grant it automatically. No forms, no wait time; just seamless code.",
+                "<span style='font-weight: bold;'>0% Bureaucracy</span> By 2025, Estonia became the first state to digitize 100% of its services, including marriage and divorce. The goal is to make the bureaucracy so efficient that it becomes 'invisible'",
+                "<span style='font-weight: bold;'>The Greenest Digital State</span> Estonia is currently engineering the <a href='https://e-estonia.com/estonia-to-become-the-greenest-digital-government-in-the-world/' target='_blank' rel='noopener noreferrer' class='inline-link'>world's first carbon-neutral government</a> infrastructure, aiming for climate neutrality by 2050."
+            ],
+            "outro": "Over the course of one's lifetime, Estonia transformed itself from a paper-based nation to a global digital pioneer. It serves as a reminder that with the right vision, even the smallest country can rewrite the rules of the world",
+            "cards": [
+                {
+                    "cardTitle": "The Digital Foundation",
+                    "cardLink": "/home",
+                    "cardTime": "Pre 2005"
+                },
+                {
+                    "cardTitle": "The 99% society",
+                    "cardLink": "/e-stonia",
+                    "cardTime": "2005 - Present"
+                },
+                {
+                    "cardTitle": "X-Road Republic",
+                    "cardLink": "/global",
+                    "cardTime": "2005 - Present"
+                }
+            ]
+        }
+    }
+}

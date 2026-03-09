@@ -1,0 +1,169 @@
+<nav class="main-nav">
+    <a href="/home" class="site-logo">{{siteTitle}}</a>
+
+    <button class="menu-toggle" id="mobile-menu-btn" aria-label="Toggle navigation">
+        ☰
+    </button>
+
+    <div class="nav-links" id="nav-menu">
+        <a href="/home">Home</a>
+        <a href="/e-stonia">e-Stonia</a>
+        <a href="/global">e-Global</a>
+        <a href="/vision">e-Vision</a>
+    </div>
+</nav>
+
+
+
+<!-- Main div -->
+<div class="{{pageClass}}">
+    {{#if isArticle}}
+    <div class="page-banner" style="background-image: url('{{image}}');"></div>  <!-- Seperate div for the banner in the background -->
+    {{/if}}
+
+    
+    <main class="content-body">
+        <!-- tags -->
+        <div class="tag-list">
+            {{#each tags}}
+            <span class="tag-item">🏷️ {{this}}</span>
+            {{/each}}
+        </div>
+
+        {{#if isArticle}}
+        <div id="article-titles">
+            <h1 id="article-title">{{title}}</h1>
+            <h2 id="article-subtitle">{{subtitle}}</h2>
+        </div>
+        {{else}}
+        <div id="home-titles">
+            <h1>{{title}}</h1>
+            <h2 id="home-main-subtitle">{{subtitle}}</h2>
+        </div>
+        {{/if}}
+
+
+        <!-- Time period -->
+         <div class="time">
+            <span>🕛 {{time}}</span>
+         </div>
+         <br>
+        
+        {{#if isArticle}}
+        <div class="article-content">
+            <p>
+                {{content}}
+            </p>
+            <br>
+            <ul>
+                {{#each contentList}}
+                <li>{{this}}</li>
+                {{/each}}
+            </ul>
+            <br>
+            <p>{{outro}}</p>
+        </div>
+        {{else}}
+        <div class="main-content">
+            <p id="main-content-intro">
+                {{content}}
+            </p>
+            <ul>
+                {{#each contentList}}
+                <li>{{this}}</li>
+                {{/each}}
+            </ul>
+        </div>
+        {{/if}}
+
+        {{#if isArticle}}
+        <section class="continue-reading">
+            <h2>Continue reading</h2>
+            <div class="article-cards">
+                {{#each cards}}
+                <a href="{{cardLink}}" class="card-link-wrapper">
+                    <article class="article-nav-card">
+                        <div class="nav-card-content">
+                            <h4>{{cardTitle}}</h4>
+                            <span class="article-card-time">{{cardTime}}</span>
+                        </div>
+                    </article>
+                </a>
+                {{/each}}
+            </div>
+        </section>
+        {{/if}}
+
+    </main>
+
+
+</div>
+
+<!-- Featured article -->
+
+{{#if isHome}}
+<section class="featured-articles">
+    <div class="featured-text">
+    <h3>Contine reading</h3>
+    <p class="featured-subtitle">Explore the key eras in Estonia's internet history</p>
+    </div>
+    <div class="cards-grid">
+        {{#each cards}}
+        <a href="{{cardLink}}" class="card-link-wrapper">
+            <article class="card">
+                <div class="card-image">
+                    <img src="{{cardImage}}" alt="{{cardTitle}}">
+                </div>
+                <div class="card-content">
+                    <div class="card-titles">
+                        <h3>{{cardTitle}}</h3>
+                        <p>{{cardSubtitle}}</p>
+                        <p id="featured-time">{{cardTime}}</p>
+                    </div>
+                    <div class="card-icon">
+                        <p id="icon-text">Read More</p>
+                        <p>→</p>
+                    </div>
+                </div>
+            </article>
+        </a>
+        {{/each}}
+    </div>
+</section>
+{{/if}}
+
+
+
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="footer-grid">
+
+        <!-- Logo and branding -->
+        <div class="footer-branding">
+            <h2 class="footer-logo">
+                {{siteTitle}}
+            </h2>
+            <p>The story of the world's most advanced digital society.</p>
+        </div>
+
+        <!-- Quick links -->
+        <div class="footer-links">
+            <h2>Quick links</h2>
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/e-stonia">e-Stonia</a></li>
+                <li><a href="/global">e-Global</a></li>
+                <li><a href="/vision">e-Vision</a></li>
+            </ul>
+        </div>
+
+        <!-- Footer about -->
+         <div class="footer-about">
+            <h2>About</h2>
+            <p>
+                The story of how Estonia used the internet to reinvent government, empower citizens, and build one of the most advanced digital societies on Earth.
+            </p>
+         </div>
+    </div>
+
+</footer>
